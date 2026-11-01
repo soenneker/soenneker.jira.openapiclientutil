@@ -52,6 +52,6 @@
         <ProjectReference Include="..\..\..\soenneker.jira.httpclients\src\Soenneker.Jira.HttpClients\Soenneker.Jira.HttpClients.csproj" Condition="Exists('..\..\..\soenneker.jira.httpclients\src\Soenneker.Jira.HttpClients\Soenneker.Jira.HttpClients.csproj')" />
         <PackageReference Include="Soenneker.Jira.HttpClients" Version="11.0.0" Condition="!Exists('..\..\..\soenneker.jira.httpclients\src\Soenneker.Jira.HttpClients\Soenneker.Jira.HttpClients.csproj')" />
         <ProjectReference Include="..\..\..\soenneker.jira.openapiclient\src\Soenneker.Jira.OpenApiClient\Soenneker.Jira.OpenApiClient.csproj" Condition="Exists('..\..\..\soenneker.jira.openapiclient\src\Soenneker.Jira.OpenApiClient\Soenneker.Jira.OpenApiClient.csproj')" />
-        <PackageReference Include="Soenneker.Jira.OpenApiClient" Version="11.0.0" Condition="!Exists('..\..\..\soenneker.jira.openapiclient\src\Soenneker.Jira.OpenApiClient\Soenneker.Jira.OpenApiClient.csproj')" />
+        <PackageReference Include="Soenneker.Jira.OpenApiClient" Version="11.0.4" Condition="!Exists('..\..\..\soenneker.jira.openapiclient\src\Soenneker.Jira.OpenApiClient\Soenneker.Jira.OpenApiClient.csproj')" />
     </ItemGroup>
 </Project>
